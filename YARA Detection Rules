@@ -1,0 +1,8 @@
+rule GorillaBot
+{
+    strings:
+        $s1 = "gorilla botnet is on the device"
+
+    condition:
+        $s1
+}
